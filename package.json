@@ -1,0 +1,24 @@
+{
+  "id": "yahoo",
+  "name": "Yahoo Messenger",
+  "version": "1.0.0",
+  "description": "Yahoo Messenger recipe for Franz",
+  "main": "index.js",
+  "author": "Levente Fuksz <levi@distancify.com>",
+  "repository": "https://github.com/levifuksz/franz-recipe-yahoo",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://messenger.yahoo.com",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "hasPredefinedUrl": true,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
